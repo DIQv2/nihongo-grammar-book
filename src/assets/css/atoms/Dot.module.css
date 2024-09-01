@@ -1,0 +1,6 @@
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -5px 5px -12px;
+}

@@ -1,0 +1,21 @@
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.bracket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    margin-left: -20px;
+    margin-right: -15px;
+}
+.bracket img{
+    height: 100%;
+    width: 50px;
+}

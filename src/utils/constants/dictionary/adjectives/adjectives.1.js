@@ -1,0 +1,18 @@
+export const Adjectives1 = [
+    ["あつい", "hot"],
+    ["さむい", "cold"],
+    ["たかい", "expensive"],
+    ["やすい", "cheap"],
+    ["いい", "good"],
+    ["わるい", "bad"],
+    ["むずかしい", "hard"],
+    ["やさしい", "easy"],
+    ["とおい", "far"],
+    ["ちかい", "close"],
+    ["おいしい", "tasty"],
+    ["おもしろい", "interesting"],
+    ["たのしい", "fun"],
+    ["ひろい", "wide / spacious"],
+    ["せまい", "narrow"],
+    ["いそがしい", "busy"],
+]

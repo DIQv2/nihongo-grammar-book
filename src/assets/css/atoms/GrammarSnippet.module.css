@@ -1,0 +1,27 @@
+.main {
+    position: relative;
+    width: fit-content;
+    max-width: calc(100dvh - 80px);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin: 20px;
+    background-color: #ffeed9;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.main:hover {
+
+}
+
+.number {
+    font-size: 1.5rem;
+    margin-top: 6px;
+    font-weight: 600;
+    min-width: fit-content;
+    width: 20px;
+}
