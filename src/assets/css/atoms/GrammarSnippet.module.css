@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    width: fit-content;
+    width: max-content;
     max-width: calc(100dvh - 80px);
     border: 2px solid black;
     border-radius: 20px;
@@ -19,9 +19,9 @@
 }
 
 .number {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 6px;
     font-weight: 600;
-    min-width: fit-content;
-    width: 20px;
+    min-width: max-content;
+    width: 15px;
 }
