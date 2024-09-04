@@ -9,7 +9,7 @@ function App() {
   return (
       <BrowserRouter>
           <Routes>
-              <Route path={"/nihongo-grammar-book/"} exact element={<Home />}>
+              <Route path={"/nihongo-grammar-book"} exact element={<Home />}>
                   <Route index element={<Grammar />}/>
                   <Route path={"grammar"} element={<Grammar />}/>
                   <Route path={"dictionary"} element={<Dictionary/>}/>
