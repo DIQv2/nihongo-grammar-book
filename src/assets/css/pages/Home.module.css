@@ -9,16 +9,17 @@
     padding: 20px;
 }
 
-.main button {
+.main a {
     padding: 10px;
     border: 2px solid black;
     margin-right: 20px;
     border-radius: 20px;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.main button:hover {
+.main a:hover {
     background-color: greenyellow;
 }
 
@@ -52,7 +53,7 @@
         padding-bottom: 0;
     }
 
-    .main button {
+    .main a {
         width: fit-content;
         height: 100%;
         display: flex;
@@ -63,7 +64,6 @@
         text-decoration: none;
         padding: 0 10px;
         margin: 0;
-        cursor: pointer;
     }
 
     .wrapper1 {
