@@ -1,5 +1,5 @@
 import './assets/css/App.css';
-import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import Grammar from "./pages/Grammar";
 import Dictionary from "./pages/Dictionary";
@@ -7,9 +7,9 @@ import Counters from "./pages/Counters";
 
 function App() {
   return (
-      <HashRouter>
+      <HashRouter basename={"/"}>
           <Routes>
-              <Route path={"/nihongo-grammar-book"} exact element={<Home />}>
+              <Route path={"/"} exact element={<Home />}>
                   <Route index element={<Grammar />}/>
                   <Route path={"grammar"} element={<Grammar />}/>
                   <Route path={"dictionary"} element={<Dictionary/>}/>

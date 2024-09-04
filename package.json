@@ -1,6 +1,5 @@
 {
   "name": "nihongo_grammar_rulebook",
-  "homepage": "https://diqv2.github.io/nihongo-grammar-book/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
